@@ -3,7 +3,11 @@ package main // executable package
 import "fmt" // format library
 
 func main() {
-  fmt.Println("Hello World!"); // console.log
+  
+//   var greeting string = "Hello World";
+  greeting := "Hello World"; // shorthand
+  
+  fmt.Println(greeting); // console.log
 }
 
 // Run: go run main.go
